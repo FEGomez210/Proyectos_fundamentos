@@ -1,6 +1,6 @@
 for i in (1,3):
     print("esta es la aplicacion:", i)
-    resp= float (input("quiere iniciar el formulario? si/no"))
+    resp=input("quiere iniciar el formulario? si/no")
     cont=0
     auxmen=0
     auxmed=0
@@ -11,14 +11,14 @@ for i in (1,3):
     mg=0
     agepromed=0
     while resp != "no":
-        age= float (input("Ingrese del usuario:"))
+        age= float (input("Ingrese la edad del usuario:"))
         if age < 25 and age > 1:
             cont=cont+1
-            ocup= float (input("Ingrese la ocupacin (estudiante, desempleado, trabajador) del usuario:"))
+            ocup=input("Ingrese la ocupacin (estudiante, desempleado, trabajador) del usuario:")
             print("La pagina pythonizame")
             print("La pagina javaizame")
             print("La pagina rubhyizame")
-            pag= float (input("ingrese la pagina que le gusta de las anteriores mensionadas:"))
+            pag=input("ingrese la pagina que le gusta de las anteriores mensionadas:")
             if (age<13):
                 auxmen=auxmen+1
             else:

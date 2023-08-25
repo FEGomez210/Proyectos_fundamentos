@@ -19,6 +19,6 @@ while rest=="si":
     z=perimetro(2,x,radio)
     print("el area de la circunceria es de:", y)
     print("el peremietro de la circunferencia es de:", z)
-    rest= int(input("quiere seguir calculando?si/no  :"))
+    rest=(input("quiere seguir calculando?si/no  :"))
 else:
     print("ha salido de la calculadora:")    
